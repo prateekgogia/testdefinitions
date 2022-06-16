@@ -27,9 +27,9 @@ spec:
   values:
     clusterName: new-env
     replicaCount: 1
-  valuesFrom:
-  - configMapKeyRef:
-      name: cluster-name
-      namespace: flux-system
-      key: management-cluster-name
-      optional: false
+  # valuesFrom:
+  # - configMapKeyRef:
+  #     name: cluster-name
+  #     namespace: flux-system
+  #     key: management-cluster-name
+  #     optional: false
